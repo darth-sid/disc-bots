@@ -1,2 +1,2 @@
-worker: python codenamesBot.py
+worker: python brrrBot.py
 
