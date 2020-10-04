@@ -1,4 +1,5 @@
 git+https://github.com/Rapptz/discord.py
+requests
 discord
 nbt
 python-dotenv
