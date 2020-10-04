@@ -1,2 +1,2 @@
-worker: python brrrBot.py
+worker: python3 brrrBot.py
 
