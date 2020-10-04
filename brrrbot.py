@@ -18,6 +18,8 @@ with open('ids.txt', 'r') as ids:
     content = ids.read()
     profiles = eval(content)
 
+print(profiles)
+
 def get_UUID(name):
     data = requests.get('https://api.mojang.com/users/profiles/minecraft/'+name).json()
     UUID = data['id']
